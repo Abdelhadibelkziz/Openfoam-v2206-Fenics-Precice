@@ -3,7 +3,7 @@ RAPPORT DE VÉRIFICATION DES INSTALLATIONS
 =========================================
 
 1. OpenFOAM v2206
-   ✓ Module chargé: openfoam/2206
+   ✓ Module chargé: openfoam/2206 
    ✓ Version: v2206
    ✓ Exécutable: $(which icoFoam)
 
