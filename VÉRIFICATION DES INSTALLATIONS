@@ -40,3 +40,16 @@ module load coupling/precice-fenics
 conda activate fenics-env
 
 Les adaptateurs sont correctement installés et prêts pour les simulations couplées.
+
+
+
+
+| Composant               | Statut | Commande                                  |
+|-------------------------|--------|--------------------------------------------|
+| OpenFOAM v2206          | ✅    | `module load openfoam/2206`                |
+| preCICE 3.1.2           | ✅    | `module load precice/3.1.2`                |
+| Adaptateur OpenFOAM     | ✅    | Dans `$FOAM_USER_LIBBIN`                   |
+| Couplage OF+preCICE     | ✅    | `module load coupling/precice-openfoam`    |
+| FEniCS 2019.1           | ✅    | `conda activate fenics-env`                |
+| Adaptateur FEniCS       | ✅    | `import fenicsprecice`                     |
+| Couplage FEniCS+preCICE | ✅    | `module load coupling/precice-fenics` + conda |
